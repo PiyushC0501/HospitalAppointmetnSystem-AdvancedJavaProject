@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100%;
+    background-size: cover;
+}
+
+.nav{
+    background-color: rgb(16, 46, 59);
+    overflow: hidden;
+    padding: 20px;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    position: relative;
+    left: 180px;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: relative;
+    top: 10px;
+}
+
+.search input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.search button {
+    padding: 6px 10px;
+    background: white;
+    color: rgb(16, 46, 59);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search button i {
+    font-size: 18px;
+}
+
+.search button:hover {
+    background: Black;
+    color: white;
+}
+
+.login-btn{
+    float: right;
+}
+
+.login-btn a{
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.user-name li{
+    color:aliceblue;
+    position: relative;
+    top: 10px;
+    padding-left: 20px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 100vh;
+    background-color: rgb(16, 46, 59);
+    z-index: 1;
+    position: fixed;
+    top: 70px;
+}
+
+.aside li{
+    list-style: none;
+    position: relative;
+    left: 10px;
+    padding: 20px;
+}
+
+.aside li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.Selector{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 220px;
+}
+
+.Selector select{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.hospitals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards{
+    padding: 20px;
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    top: 80px;
+    left: 250px;
+}
+
+.cards button{
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    background: none;
+    cursor: pointer;
+}
+
+.cards button a{
+    text-decoration: none;
+}
+
+.cards img{
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 120px;
+}
+
+.page-nav {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+
+.page-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.app-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    left: 150px;
+    margin-left: 200px;
+    margin-right: 400px;
+    top: 60px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.app-form input{
+    margin: 10px;
+    padding: 5px;
+}
+
+.app-form button{
+    background: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.support{
+    padding: 50px;
+    padding-left: 250px;
+}
+
+.support p{
+    padding: 20px;
+}
+
+.doctors{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px;
+    padding-left: 250px;
+}
+
+.form-status{
+    margin: 30px;
+    padding:50px;
+    padding-left: 250px;
+    text-align:center;
+ }
+
+
+.appt-status{
+    margin: 30px;
+    padding:20px;
+    padding-left: 250px;
+    text-align:center;
+}
+
+.appt-status table thead th{
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: rgba(128, 128, 128, 0.19);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.appt-status table tbody td{
+    padding: 20px;
+    margin: 30px;
+}
+
+.delete-btn{
+background:none;
+padding:10px;
+text-transform:uppercase;
+}

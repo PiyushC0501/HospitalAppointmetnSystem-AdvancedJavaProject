@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;;
+}
+.main-container{
+    width:400px;
+    height:500px;
+    background-color:#fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+.btns-container{
+    width:250px;
+    height:40px;background-color: yellow;
+    margin: 30px auto;
+    display: flex;
+    border-radius: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    font-size:18px;
+    font-weight:500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.login{
+    width:50%;
+    background-color: rgb(16, 46, 59);
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 2px solid gray;
+}
+
+.Register{
+    width:50%;
+    color: #fff;
+    background-color: rgb(16, 46, 59);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.input{
+    width:80%;
+    height:45px;
+    margin: 40px auto;
+}
+
+.input input{
+    width:100%;
+    height: 100%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+button{
+    background: none;
+    border: none;
+    color: white;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+/*-----------start of Login container------------*/
+.login-container{
+    margin-top: 50px;
+    transition: all .5s ease;
+}
+
+.login-btn{
+    width:200px;
+    height:40px;
+    margin: 20px auto;
+    margin-top: 40px;
+}
+
+.login-btn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top:10px;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: rgb(16, 46, 59);
+    border-radius: 20px;
+}
+
+.remember{
+    width:80%;
+    height:30px;
+    margin: 10px auto;
+    margin-top:30px;
+    margin-left:0px;
+
+
+}
+.remember #Remember{
+    width:18px ;
+    height: 18px;
+    margin:5px;
+}
+.remember label{
+    margin-left:10px;
+    margin-top:-5px;
+}
+
+.bottom-login{
+    width:80%;
+    text-align: center;
+    position: absolute;
+    bottom:30px;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+/*-----------End of Login container------------*/
+
+
+/*-----------start of Register container------------*/
+
+
+.register-container{
+    width:400px;
+    height:420px;
+    position:absolute;
+    bottom:0%;
+    right:-100%;
+    transition: all .4s ease;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+.register-container .div1{
+     margin-top: 120px;
+}
+
+.register-btn{
+    width:200px;
+    height:40px;
+    margin: 20px auto;
+    margin-top: 40px;
+}
+.register-btn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top:5px;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: rgb(16, 46, 59);
+    border-radius: 20px;
+}
+
+.regmessage{
+            background-color: #f0f8ff;
+            padding: 10px;
+            color: #333;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+}
+
+.bottom-register{
+    width:80%;
+    text-align: center;
+    position: absolute;
+    bottom:50px;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/*-----------End of Register container------------*/

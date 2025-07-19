@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [18/May/2025:15:37:05 +0530] "GET /HAS-Admin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/May/2025:15:37:07 +0530] "GET /HAS-Admin/ HTTP/1.1" 200 1501
+0:0:0:0:0:0:0:1 - - [18/May/2025:15:37:08 +0530] "GET /favicon.ico HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [18/May/2025:15:37:17 +0530] "POST /HAS-Admin/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/May/2025:15:37:17 +0530] "GET /HAS-Admin/dash HTTP/1.1" 200 4075
+0:0:0:0:0:0:0:1 - - [18/May/2025:15:37:18 +0530] "GET /HAS-Admin/CSS/dashb.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/May/2025:15:37:50 +0530] "GET /HAS-Admin/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/May/2025:15:37:50 +0530] "GET /HAS-Admin/index.jsp?message=logout_success HTTP/1.1" 200 1574
